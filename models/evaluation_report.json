@@ -1,0 +1,64 @@
+{
+    "model": "TF-IDF + Logistic Regression",
+    "dataset_rows_after_cleaning": 600,
+    "training_examples": 480,
+    "test_examples": 120,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "class_order": [
+        "negative",
+        "neutral",
+        "positive"
+    ],
+    "confusion_matrix": [
+        [
+            40,
+            0,
+            0
+        ],
+        [
+            0,
+            40,
+            0
+        ],
+        [
+            0,
+            0,
+            40
+        ]
+    ],
+    "classification_report": {
+        "negative": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 40.0
+        },
+        "neutral": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 40.0
+        },
+        "positive": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 40.0
+        },
+        "accuracy": 1.0,
+        "macro avg": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 120.0
+        },
+        "weighted avg": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 120.0
+        }
+    },
+    "warning": "Metrics are only as representative as the dataset. A random split is not independent real-world validation."
+}
